@@ -385,21 +385,59 @@ button:hover{
 
 /* footer */
 
-.end-details{
+footer{
   max-width: 1600px;
   max-height: 609px;
   background-color: black;
+}
+
+.end-details{
+  
   margin-top: 120px;
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 40px 100px;
 }
 
 .footer-txt{
   color: white;
+  display: flex;
+  align-items: center;
+  gap: 5px;
   font-size: 12px;
   margin: 0 0 0 0;
+  padding: 5px;
   
 }
+footer div p img{
+  height: 24px;
+  width: 24px;
+}
 
+.social-pic img{
+  width: 64px;
+  height: 64px;
+}
+.social-pic{
+  width: 228px;
+  height: 64px;
+  display: flex;
+  
+  margin: 0 auto;
+  gap: 28px;
+}
+.fst-line {
+  width: 50%;
+  height: 2px;                
+  background: rgb(184, 181, 181); /* Sets the line color */
+  border: none;               /* Removes default border */
+}
+
+.end{
+  color: #c7c3ba;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 100px;
+}
 
